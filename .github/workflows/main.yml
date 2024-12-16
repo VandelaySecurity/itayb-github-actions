@@ -11,7 +11,7 @@ jobs:
       SHOULD_PUSH_SHARED_PACKAGE: false
       SHOULD_CREATE_MIGRATION_SCRIPT: true
       DB_NAME: AdoIntegrationService
-      DOTNET_VERSION: "8.0"
+      DOTNET_VERSION: "8.2"
       RESHARPER_VERSION: "2024.1.2"
     secrets: inherit
   generate_api_packages:
